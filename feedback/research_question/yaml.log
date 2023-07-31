@@ -1,0 +1,51 @@
+$group
+[1] "a_group_129"
+
+$members
+[1] "Pratyush Garg"                   "Mohamed Aves Cutleriwala"       
+[3] "Venkata Naga Durga Akhila Tavva" "Mohammad Mudassir"              
+[5] "Chandra Shekar Ballankala"      
+
+$topic
+[1] "Heart Diseases"
+
+$RQ
+[1] "Is there a difference in the mean of cholesterol level in Cleveland between Male and Female population?"
+
+$`independent-var`
+[1] "sex"
+
+$`dependent-var`
+[1] "cholestoral"
+
+$`null-hypothesis`
+[1] "There is no difference in the mean of cholesterol levels in Cleveland between male and female population."
+
+$`alt-hypothesis`
+[1] "There is a difference in the mean of cholesterol level in Cleveland between male and female population."
+
+$`dataset-url`
+[1] "https://data.world/uci/heart-disease"
+
+$columns
+[1] "> df <- read.csv(\"workingDataset.csv\")\n> colnames(df)\n [1] \"age\"          \"sex\"         \"chest_pain\"  \"rstng_BP\"    \"cholestoral\" \"fbs\"        \n [7] \"restecg\"      \"max_HR\"      \"exang\"       \"oldpeak\"     \"slope\"       \"ca\"         \n [13] \"thal\"        \"num\""
+
+Warning message:
+In readLines(file) : incomplete final line found on 'research_question.yml'
+OK
+datafile: workingDataset.csv
+columns: |
+  > df <- read.csv("workingDataset.csv")
+  > colnames(df)
+   [1] "age"          "sex"         "chest_pain"  "rstng_BP"    "cholestoral" "fbs"        
+   [7] "restecg"      "max_HR"      "exang"       "oldpeak"     "slope"       "ca"         
+   [13] "thal"        "num"
+datafiles:
+datafile: workingDataset.csv
+columns: |
+  > df <- read.csv("workingDataset.csv")
+  > colnames(df)
+   [1] "age"          "sex"         "chest_pain"  "rstng_BP"    "cholestoral" "fbs"        
+   [7] "restecg"      "max_HR"      "exang"       "oldpeak"     "slope"       "ca"         
+   [13] "thal"        "num"
+datafiles:
